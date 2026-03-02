@@ -1,5 +1,4 @@
 <?php
-// src/Game.php
 
 namespace GuessTheNumber;
 
