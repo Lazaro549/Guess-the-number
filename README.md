@@ -1,14 +1,39 @@
 # Guess the Number
 
-A simple PHP console/web game where the player tries to guess a randomly generated number. Designed for learning PHP basics and practicing logic, loops, and conditionals.
+[![PHP Version](https://img.shields.io/badge/php-8.0%2B-blue.svg)](https://www.php.net/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Build Status](https://img.shields.io/badge/tests-passing-brightgreen.svg)](#tests)
+
+A simple **PHP Guess the Number** game with **CLI** and **web** versions.  
+Designed to learn PHP basics, object-oriented programming, and practice logic, loops, and conditionals.
+
+---
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#features)  
+- [Installation](#installation)  
+- [CLI Usage](#cli-usage)  
+- [Web Usage](#web-usage)  
+- [Project Structure](#project-structure)  
+- [Testing](#testing)  
+- [Composer](#composer)  
+- [License](#license)  
+
+---
+
+## Features
+
+- Guess a random number in a defined range (default 1–100).  
+- Feedback: "Too high", "Too low", or "Correct!"  
+- Tracks number of attempts.  
+- Two interfaces:  
+  - CLI (terminal)  
+  - Web (browser) with sessions.  
+- Object-oriented design (`Game` class)  
+- Unit tests with PHPUnit.  
+
+---
 
 ## Installation
 
@@ -17,14 +42,13 @@ A simple PHP console/web game where the player tries to guess a randomly generat
    ```bash
    git clone https://github.com/Lazaro549/Guess-the-number.git
    cd Guess-the-number
-2. Make sure you have PHP installed. You can check with:
 
-      ```bash
-      php -v
-3. Run the game:
+2. Install dependencies with Composer:
 
-      ```bash
-      php index.php
-If it’s a web version, start a PHP server:
-  ```bash
-  php -S localhost:8000
+   ```bash
+   composer install
+
+3. Make sure you have PHP 8+ installed:
+
+   ```bash
+   php -v
