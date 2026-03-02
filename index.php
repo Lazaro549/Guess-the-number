@@ -41,3 +41,27 @@ while (true) {
 }
 
 ?>
+
+<?php
+require __DIR__ . '/src/Game.php';
+require __DIR__ . '/src/Player.php';
+
+use GuessTheNumber\Game;
+use GuessTheNumber\Player;
+
+$game = new Game(1, 100);
+
+echo "Welcome to Guess the Number!\n";
+
+while (true) {
+    $guess = Player::getInput();
+    $result = $game->guess($guess);
+
+    if ($result === "correct") {
+        echo "Congratulations! You guessed the number {$game->getNumber()} in {$game->getAttempts()} attempts.\n";
+        break;
+    } else {
+        echo $result . " Try again.\n";
+    }
+}
+?>
