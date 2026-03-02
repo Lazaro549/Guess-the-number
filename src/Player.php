@@ -18,3 +18,5 @@ class Player
         return (int)$input;
     }
 }
+
+?>
