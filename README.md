@@ -52,3 +52,13 @@ Designed to learn PHP basics, object-oriented programming, and practice logic, l
 
    ```bash
    php -v
+
+## 💸 Donations
+
+If you'd like to support this project:
+
+- 🇦🇷 ARS (Argentina)  
+  Alias: `lazaro.503.alaba.mp`
+
+- 🌎 USD (Argentina only, local transfers)  
+  Alias: `ahogada.duras.foca`
