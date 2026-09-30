@@ -1,4 +1,7 @@
 # Guess the Number
+<p align="center">
+  <img src="evidence.pnh" width="85%" alt="Demostración de instalación">
+</p>
 
 [![PHP Version](https://img.shields.io/badge/php-8.0%2B-blue.svg)](https://www.php.net/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
